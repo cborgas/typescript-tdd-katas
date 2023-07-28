@@ -1,10 +1,17 @@
 # typescript-tdd-katas
 For practicing TDD in TypeScript
 
-Find a Kata at [kata-log.rocks](https://kata-log.rocks/)
+## Banking Kata
 
-1. Clone or fork this repo
-2. Run `npm install`
-3. Write your test
-4. Write your code
-6. Run your test with `npm test`
+[kata-log.rocks/banking-kata](https://kata-log.rocks/banking-kata)
+
+### Requirements
+Write a class Account that offers the following methods void deposit(int) void withdraw(int) String printStatement()
+
+An example statement would be:
+
+```
+Date        Amount  Balance
+24.12.2015   +500      500
+23.8.2016    -100      400
+```
